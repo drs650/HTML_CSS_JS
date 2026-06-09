@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 600px;
+            border: 1px solid #ccc;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+        }
+        .items {
+            padding: 10px;
+            font-size: 20px;
+        }
+        .items:nth-child(even) {
+            background-color: #ffc400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">Lorem ipsum consectetur is molestiae adipisicing elit. consectetur dolor?</div>
+        <div class="items">m ipsum dolor sit amet adipisicing elit.</div>
+        <div class="items">ctetur adipisicing  Vero laudantium quis elit. Aliquam tem</div>
+        <div class="items">amet consectetur  Impedit sint animi dolorum facere voluptatem ipsum facilis! Ullam eaque, explicabo, quaerat dolorum suscipit inventore quo nostrum perspiciatis esse fugit, ut a!</div>
+        <div class="items">dolor sit, amet non distinctio ipsa at fugit.</div>
+        <div class="items">ipisicing elit. voluptatem corrupti esse voluptates, rem reiciendis officiis neque, pariatur repudiandae reprehenderit beatae libero. Obcaecati, quia reiciendis! A, placeat possimus.</div>
+    </div>
+</body>
+</html>
